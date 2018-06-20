@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class QuartzConfiguration {
 
-    private static final int TIME = 1800; // 更新频率
+    private static final int TIME = 18000; // 更新频率
 
     // JobDetail
     @Bean
