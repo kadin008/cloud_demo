@@ -2,6 +2,9 @@ package cn.net.aipic.spring.cloud.weather.vo;
 
 import java.io.Serializable;
 
+/**
+ * 昨日天气.
+ */
 public class Yeaterday implements Serializable {
 
     private static final long serialVersionUID = -932082691176976353L;

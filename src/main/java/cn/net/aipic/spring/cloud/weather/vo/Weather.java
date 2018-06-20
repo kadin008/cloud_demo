@@ -3,6 +3,10 @@ package cn.net.aipic.spring.cloud.weather.vo;
 import java.io.Serializable;
 import java.util.List;
 
+
+/**
+ * 天气信息.
+ */
 public class Weather implements Serializable {
 
     private static final long serialVersionUID = 5731934692065550296L;

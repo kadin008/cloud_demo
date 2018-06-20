@@ -2,6 +2,10 @@ package cn.net.aipic.spring.cloud.weather.vo;
 
 import java.io.Serializable;
 
+
+/**
+ *  Weather Response.
+ */
 public class WeatherResponse implements Serializable {
     private static final long serialVersionUID = 1692308052718430619L;
 

@@ -2,6 +2,9 @@ package cn.net.aipic.spring.cloud.weather.vo;
 
 import java.io.Serializable;
 
+/**
+ * 未来天气.
+ */
 public class Forecast implements Serializable {
 
     private static final long serialVersionUID = -1249065907241086293L;

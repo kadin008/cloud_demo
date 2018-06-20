@@ -11,6 +11,9 @@ import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 
+/**
+ * 天气数据 Service 实现
+ */
 @Service
 public class WeatherDataServiceImpl implements WeatherDataService {
     private static final String WEATHER_URI = "http://wthrcdn.etouch.cn/weather_mini?";
