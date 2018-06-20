@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+# 热部署静态文件
+spring:
+  thymeleaf:
+    cache: false
