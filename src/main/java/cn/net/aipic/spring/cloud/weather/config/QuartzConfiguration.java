@@ -1,7 +1,11 @@
 package cn.net.aipic.spring.cloud.weather.config;
 
 import cn.net.aipic.spring.cloud.weather.job.WeatherDataSyncJob;
-import org.quartz.*;
+import org.quartz.JobBuilder;
+import org.quartz.JobDetail;
+import org.quartz.SimpleScheduleBuilder;
+import org.quartz.Trigger;
+import org.quartz.TriggerBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

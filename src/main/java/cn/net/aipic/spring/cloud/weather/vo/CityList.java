@@ -9,9 +9,6 @@ import java.util.List;
 
 /**
  * City List.
- *
- * @since 1.0.0 2017年11月23日
- * @author <a href="https://waylau.com">Way Lau</a>
  */
 @XmlRootElement(name = "c")
 @XmlAccessorType(XmlAccessType.FIELD)
